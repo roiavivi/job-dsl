@@ -12,7 +12,7 @@ pipelineJob("p1") {
             }
          }
          // This will be cloned and then ran when Pipeline P1 is ran
-         scriptPath('./Jenkinsfile')
+         scriptPath('Jenkinsfile')
       }
    }
 }
